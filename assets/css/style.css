@@ -1,7 +1,3 @@
-body{
-    background-color: #71cd97;
-}
-
 header{
     width: 100%;
     height: 7vh;
@@ -15,11 +11,25 @@ header{
 
 }
 
+body{
+    background-color: #71cd97;
+}
+
+
 main{
     width: 80%;
     height: 85vh;
     background-color: #ffffff;
-    margin: 0 10%
+    margin: 0 10%;
+    border-radius: 20px;
+}
+
+button{
+
+    height: 110px;
+    width: 210px;
+    border-radius: 20px;
+    /* padding: 25% 40%; */
 }
 
 footer{
@@ -28,14 +38,25 @@ footer{
     background-color: #262726
 }
 
+
+
 .InformacoesDoUsuario{
     width: 100%;
     height: 13vh;
     background-color: #ffffff;
     border-radius: 20px;
-    border: 2px solid black
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    
     
 }
+
+.InformacoesDoUsuario p strong {
+    font-weight: bold; /* Garante que o texto em <strong> realmente ficará em negrito */
+}
+
 
 .CampoBotoes{
     width: 76%;
@@ -55,10 +76,3 @@ footer{
 
 
 
-button{
-
-    height: 110px;
-    width: 210px;
-    border-radius: 20px;
-    /* padding: 25% 40%; */
-}
